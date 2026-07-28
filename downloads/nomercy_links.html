@@ -1,0 +1,592 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>NO MERCY DELTA LITE – Download Links</title>
+  <meta name="description" content="Halaman download semua versi NO MERCY DELTA LITE APK dari MediaFire" />
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&display=swap" rel="stylesheet" />
+  <style>
+    :root {
+      --bg: #0a0c14;
+      --surface: #111827;
+      --surface2: #1a2233;
+      --accent: #6c63ff;
+      --accent2: #ff6584;
+      --accent3: #43e97b;
+      --text: #e2e8f0;
+      --muted: #64748b;
+      --border: rgba(108,99,255,0.18);
+      --glow: rgba(108,99,255,0.3);
+    }
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    html { scroll-behavior: smooth; }
+    body {
+      font-family: 'Outfit', sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      min-height: 100vh;
+      overflow-x: hidden;
+    }
+    body::before {
+      content: '';
+      position: fixed;
+      inset: 0;
+      background:
+        radial-gradient(ellipse 80% 60% at 20% 10%, rgba(108,99,255,0.12) 0%, transparent 60%),
+        radial-gradient(ellipse 60% 50% at 80% 90%, rgba(255,101,132,0.08) 0%, transparent 60%);
+      pointer-events: none;
+      z-index: 0;
+    }
+    .particles {
+      position: fixed;
+      inset: 0;
+      z-index: 0;
+      pointer-events: none;
+      overflow: hidden;
+    }
+    .particle {
+      position: absolute;
+      width: 3px; height: 3px;
+      border-radius: 50%;
+      background: var(--accent);
+      opacity: 0;
+      animation: float linear infinite;
+    }
+    @keyframes float {
+      0%   { opacity: 0; transform: translateY(100vh) scale(0); }
+      10%  { opacity: 0.6; }
+      90%  { opacity: 0.2; }
+      100% { opacity: 0; transform: translateY(-20px) scale(1.5); }
+    }
+    .wrapper {
+      position: relative;
+      z-index: 1;
+      max-width: 860px;
+      margin: 0 auto;
+      padding: 48px 20px 80px;
+    }
+    .header { text-align: center; margin-bottom: 48px; }
+    .header .badge {
+      display: inline-block;
+      padding: 6px 18px;
+      border-radius: 999px;
+      background: rgba(108,99,255,0.15);
+      border: 1px solid var(--border);
+      font-size: 0.78rem;
+      font-weight: 600;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      color: var(--accent);
+      margin-bottom: 18px;
+      animation: fadeDown 0.6s ease both;
+    }
+    .header h1 {
+      font-size: clamp(2rem, 5vw, 3.2rem);
+      font-weight: 800;
+      line-height: 1.1;
+      background: linear-gradient(135deg, #fff 30%, var(--accent) 70%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+      animation: fadeDown 0.7s 0.1s ease both;
+    }
+    .header p {
+      margin-top: 14px;
+      color: var(--muted);
+      font-size: 1rem;
+      animation: fadeDown 0.7s 0.2s ease both;
+    }
+    .stats-bar {
+      display: flex;
+      gap: 12px;
+      justify-content: center;
+      flex-wrap: wrap;
+      margin-bottom: 36px;
+      animation: fadeDown 0.7s 0.3s ease both;
+    }
+    .stat {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 10px 22px;
+      font-size: 0.9rem;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+    .stat span.val { font-weight: 700; color: var(--accent); }
+    .search-wrap {
+      position: relative;
+      margin-bottom: 28px;
+      animation: fadeDown 0.7s 0.35s ease both;
+    }
+    .search-wrap input {
+      width: 100%;
+      padding: 14px 20px 14px 48px;
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 14px;
+      color: var(--text);
+      font-family: 'Outfit', sans-serif;
+      font-size: 0.95rem;
+      outline: none;
+      transition: border-color 0.3s, box-shadow 0.3s;
+    }
+    .search-wrap input:focus {
+      border-color: var(--accent);
+      box-shadow: 0 0 0 3px var(--glow);
+    }
+    .search-wrap .icon {
+      position: absolute;
+      left: 16px;
+      top: 50%;
+      transform: translateY(-50%);
+      color: var(--muted);
+      font-size: 1.1rem;
+    }
+    .controls {
+      display: flex;
+      gap: 10px;
+      margin-bottom: 24px;
+      flex-wrap: wrap;
+      animation: fadeDown 0.7s 0.4s ease both;
+    }
+    .btn {
+      padding: 10px 20px;
+      border-radius: 10px;
+      border: 1px solid var(--border);
+      background: var(--surface);
+      color: var(--text);
+      font-family: 'Outfit', sans-serif;
+      font-size: 0.85rem;
+      font-weight: 600;
+      cursor: pointer;
+      transition: all 0.25s;
+      display: flex;
+      align-items: center;
+      gap: 6px;
+    }
+    .btn:hover { background: var(--accent); border-color: var(--accent); transform: translateY(-2px); }
+    .btn.primary { background: var(--accent); border-color: var(--accent); }
+    .btn.primary:hover { background: #5851e0; }
+    .btn.danger { border-color: rgba(255,101,132,0.3); }
+    .btn.danger:hover { background: var(--accent2); border-color: var(--accent2); }
+    #link-container { display: flex; flex-direction: column; gap: 14px; }
+    .link-card {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 16px;
+      padding: 20px 24px;
+      display: flex;
+      align-items: center;
+      gap: 18px;
+      transition: transform 0.25s, border-color 0.25s, box-shadow 0.25s;
+      animation: slideIn 0.5s ease both;
+    }
+    .link-card:hover {
+      transform: translateY(-3px);
+      border-color: var(--accent);
+      box-shadow: 0 8px 32px var(--glow);
+    }
+    .card-num {
+      width: 46px; height: 46px;
+      border-radius: 12px;
+      background: linear-gradient(135deg, var(--accent), #a78bfa);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-weight: 800;
+      font-size: 1.1rem;
+      flex-shrink: 0;
+      box-shadow: 0 4px 16px rgba(108,99,255,0.4);
+    }
+    .card-body { flex: 1; min-width: 0; }
+    .card-title { font-size: 1rem; font-weight: 700; margin-bottom: 5px; color: #fff; }
+    .card-url { font-size: 0.78rem; color: var(--muted); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+    .card-url a { color: var(--accent); text-decoration: none; }
+    .card-url a:hover { text-decoration: underline; }
+    .card-actions { display: flex; gap: 8px; flex-shrink: 0; }
+    .icon-btn {
+      width: 38px; height: 38px;
+      border-radius: 10px;
+      border: 1px solid var(--border);
+      background: var(--surface2);
+      color: var(--text);
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 1rem;
+      transition: all 0.2s;
+    }
+    .icon-btn:hover { background: var(--accent); border-color: var(--accent); transform: scale(1.08); }
+    .icon-btn.copied { background: var(--accent3); border-color: var(--accent3); }
+    .empty-state { text-align: center; padding: 60px 20px; color: var(--muted); display: none; }
+    .empty-state .emoji { font-size: 3rem; margin-bottom: 16px; }
+    #toast {
+      position: fixed;
+      bottom: 30px; right: 30px;
+      background: var(--surface2);
+      border: 1px solid var(--accent);
+      color: var(--text);
+      padding: 14px 22px;
+      border-radius: 12px;
+      font-size: 0.9rem;
+      font-weight: 600;
+      box-shadow: 0 8px 32px rgba(0,0,0,0.5);
+      z-index: 1000;
+      opacity: 0;
+      transform: translateY(20px);
+      transition: opacity 0.3s, transform 0.3s;
+      pointer-events: none;
+    }
+    #toast.show { opacity: 1; transform: translateY(0); }
+    .progress-wrap {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 999px;
+      height: 6px;
+      margin-bottom: 28px;
+      overflow: hidden;
+      display: none;
+    }
+    .progress-bar {
+      height: 100%;
+      width: 0%;
+      background: linear-gradient(90deg, var(--accent), var(--accent2));
+      border-radius: 999px;
+      transition: width 0.4s ease;
+    }
+    #scraper-status { text-align: center; padding: 40px 20px; color: var(--muted); font-size: 0.95rem; }
+    .spinner {
+      width: 40px; height: 40px;
+      border: 3px solid var(--border);
+      border-top-color: var(--accent);
+      border-radius: 50%;
+      animation: spin 0.8s linear infinite;
+      margin: 0 auto 16px;
+    }
+    @keyframes spin { to { transform: rotate(360deg); } }
+    @keyframes fadeDown {
+      from { opacity: 0; transform: translateY(-16px); }
+      to   { opacity: 1; transform: translateY(0); }
+    }
+    @keyframes slideIn {
+      from { opacity: 0; transform: translateX(-20px); }
+      to   { opacity: 1; transform: translateX(0); }
+    }
+    footer { text-align: center; color: var(--muted); font-size: 0.8rem; margin-top: 60px; padding-bottom: 20px; }
+    footer a { color: var(--accent); text-decoration: none; }
+    @media (max-width: 600px) {
+      .link-card { flex-direction: column; align-items: flex-start; }
+      .card-actions { width: 100%; justify-content: flex-end; }
+    }
+  </style>
+</head>
+<body>
+
+<div class="particles" id="particles"></div>
+
+<div class="wrapper">
+  <div class="header">
+    <div class="badge">APK Download Hub</div>
+    <h1>NO MERCY DELTA LITE</h1>
+    <p>Semua versi tersedia – klik untuk download langsung dari MediaFire</p>
+  </div>
+
+  <div class="stats-bar" id="stats-bar" style="display:none">
+    <div class="stat">Total: <span class="val" id="stat-total">0</span> Link</div>
+    <div class="stat">Dimuat: <span class="val" id="stat-loaded">0</span></div>
+    <div class="stat">Tampil: <span class="val" id="stat-visible">0</span></div>
+  </div>
+
+  <div class="progress-wrap" id="progress-wrap">
+    <div class="progress-bar" id="progress-bar"></div>
+  </div>
+
+  <div class="search-wrap" id="search-wrap" style="display:none">
+    <span class="icon">🔍</span>
+    <input type="text" id="search-input" placeholder="Cari versi... (contoh: Nomercy 5)" />
+  </div>
+
+  <div class="controls" id="controls" style="display:none">
+    <button class="btn primary" onclick="copyAll()">📋 Copy Semua Link</button>
+    <button class="btn" onclick="downloadList()">💾 Export .txt</button>
+    <button class="btn danger" onclick="sortDesc()">🔽 Terbaru Dulu</button>
+    <button class="btn" onclick="sortAsc()">🔼 Terlama Dulu</button>
+    <button class="btn" onclick="refreshLinks()">🔄 Refresh</button>
+  </div>
+
+  <div id="link-container">
+    <div id="scraper-status">
+      <div class="spinner"></div>
+      <p>Memuat data link...</p>
+    </div>
+  </div>
+
+  <div class="empty-state" id="empty-state">
+    <div class="emoji">🔍</div>
+    <p>Tidak ada link yang cocok dengan pencarian Anda.</p>
+  </div>
+
+  <footer>
+    Dibuat dengan love | Data dari <a href="https://www.mediafire.com" target="_blank">MediaFire</a>
+  </footer>
+</div>
+
+<div id="toast"></div>
+
+<script>
+  // ====================================================
+  // DATA LINK – langsung dari screenshot yang diberikan
+  // ====================================================
+  const RAW_LINKS = [
+    { name: "Nomercy 10", url: "https://www.mediafire.com/file/2nn4p8ku5l5aklx/NO_MERCY_DELTA_LITE_%255B32BIT%255D_10-2.731.944.apk/file" },
+    { name: "Nomercy 9",  url: "https://www.mediafire.com/file/tcnx8fbd0ujbhnx/NO_MERCY_DELTA_LITE_%255B32BIT%255D_09-2.731.944.apk/file" },
+    { name: "Nomercy 8",  url: "https://www.mediafire.com/file/djld36pajure0tk/NO_MERCY_DELTA_LITE_%255B32BIT%255D_08-2.731.944.apk/file" },
+    { name: "Nomercy 7",  url: "https://www.mediafire.com/file/go62qh9nmundjaj/NO_MERCY_DELTA_LITE_%255B32BIT%255D_07-2.731.944.apk/file" },
+    { name: "Nomercy 6",  url: "https://www.mediafire.com/file/22hgbmivitkvc62/NO_MERCY_DELTA_LITE_%255B32BIT%255D_06-2.731.944.apk/file" },
+    { name: "Nomercy 5",  url: "https://www.mediafire.com/file/2u8z0m5lk6lfnt7/NO_MERCY_DELTA_LITE_%255B32BIT%255D_05-2.731.944.apk/file" },
+    { name: "Nomercy 4",  url: "https://www.mediafire.com/file/jpgy44te9buggr2/NO_MERCY_DELTA_LITE_%255B32BIT%255D_04-2.731.944.apk/file" },
+    { name: "Nomercy 3",  url: "https://www.mediafire.com/file/r6wa82mjjt8e6z/NO_MERCY_DELTA_LITE_%255B32BIT%255D_03-2.731.944.apk/file" },
+    { name: "Nomercy 2",  url: "https://www.mediafire.com/file/3u4ziov35bh64qa/NO_MERCY_DELTA_LITE_%255B32BIT%255D_02-2.731.944.apk/file" },
+    { name: "Nomercy 1",  url: "https://www.mediafire.com/file/2q6cudkbnw5gl5v/NO_MERCY_DELTA_LITE_%255B32BIT%255D_01-2.731.944.apk/file" },
+  ];
+
+  // ====================================================
+  // PARTICLES
+  // ====================================================
+  function createParticles() {
+    const container = document.getElementById('particles');
+    const colors = ['#6c63ff','#ff6584','#43e97b','#a78bfa'];
+    for (let i = 0; i < 30; i++) {
+      const p = document.createElement('div');
+      p.className = 'particle';
+      p.style.left = Math.random() * 100 + '%';
+      const size = (Math.random() * 4 + 2) + 'px';
+      p.style.width = p.style.height = size;
+      p.style.background = colors[Math.floor(Math.random() * colors.length)];
+      p.style.animationDuration = (Math.random() * 12 + 8) + 's';
+      p.style.animationDelay = (Math.random() * 10) + 's';
+      container.appendChild(p);
+    }
+  }
+
+  // ====================================================
+  // STATE
+  // ====================================================
+  let allLinks = [];
+  let filteredLinks = [];
+
+  // ====================================================
+  // RENDER KARTU
+  // ====================================================
+  function renderCards(links) {
+    const container = document.getElementById('link-container');
+    const empty = document.getElementById('empty-state');
+    container.innerHTML = '';
+    document.getElementById('stat-visible').textContent = links.length;
+
+    if (links.length === 0) {
+      empty.style.display = 'block';
+      return;
+    }
+    empty.style.display = 'none';
+
+    links.forEach((item, i) => {
+      const num = extractNum(item.name);
+      const card = document.createElement('div');
+      card.className = 'link-card';
+      card.style.animationDelay = (i * 0.06) + 's';
+
+      const numDiv = document.createElement('div');
+      numDiv.className = 'card-num';
+      numDiv.textContent = num;
+
+      const body = document.createElement('div');
+      body.className = 'card-body';
+
+      const title = document.createElement('div');
+      title.className = 'card-title';
+      title.textContent = item.name;
+
+      const urlDiv = document.createElement('div');
+      urlDiv.className = 'card-url';
+      const link = document.createElement('a');
+      link.href = item.url;
+      link.target = '_blank';
+      link.rel = 'noopener';
+      link.textContent = item.url;
+      urlDiv.appendChild(link);
+
+      body.appendChild(title);
+      body.appendChild(urlDiv);
+
+      const actions = document.createElement('div');
+      actions.className = 'card-actions';
+
+      const copyBtn = document.createElement('button');
+      copyBtn.className = 'icon-btn';
+      copyBtn.title = 'Copy Link';
+      copyBtn.textContent = '📋';
+      copyBtn.onclick = () => copyLink(copyBtn, item.url);
+
+      const openBtn = document.createElement('button');
+      openBtn.className = 'icon-btn';
+      openBtn.title = 'Buka Link';
+      openBtn.textContent = '🔗';
+      openBtn.onclick = () => window.open(item.url, '_blank');
+
+      actions.appendChild(copyBtn);
+      actions.appendChild(openBtn);
+
+      card.appendChild(numDiv);
+      card.appendChild(body);
+      card.appendChild(actions);
+      container.appendChild(card);
+    });
+  }
+
+  function extractNum(name) {
+    const m = name.match(/\d+/);
+    return m ? m[0] : '?';
+  }
+
+  // ====================================================
+  // LOAD (animasi scraping)
+  // ====================================================
+  function loadLinks() {
+    const progressWrap = document.getElementById('progress-wrap');
+    const progressBar  = document.getElementById('progress-bar');
+    progressWrap.style.display = 'block';
+    progressBar.style.width = '0%';
+
+    let pct = 0;
+    const interval = setInterval(() => {
+      pct += Math.random() * 20;
+      if (pct > 95) pct = 95;
+      progressBar.style.width = pct + '%';
+    }, 150);
+
+    setTimeout(() => {
+      clearInterval(interval);
+      progressBar.style.width = '100%';
+
+      setTimeout(() => {
+        progressWrap.style.display = 'none';
+        allLinks = [...RAW_LINKS];
+        filteredLinks = [...allLinks];
+
+        document.getElementById('stat-total').textContent   = allLinks.length;
+        document.getElementById('stat-loaded').textContent  = allLinks.length;
+        document.getElementById('stat-visible').textContent = allLinks.length;
+        document.getElementById('stats-bar').style.display   = 'flex';
+        document.getElementById('search-wrap').style.display = 'block';
+        document.getElementById('controls').style.display    = 'flex';
+
+        const status = document.getElementById('scraper-status');
+        if (status) status.remove();
+
+        renderCards(filteredLinks);
+        showToast(allLinks.length + ' link berhasil dimuat!');
+      }, 300);
+    }, 1200);
+  }
+
+  // ====================================================
+  // SEARCH
+  // ====================================================
+  document.getElementById('search-input').addEventListener('input', function() {
+    const q = this.value.toLowerCase().trim();
+    filteredLinks = allLinks.filter(item =>
+      item.name.toLowerCase().includes(q) ||
+      item.url.toLowerCase().includes(q)
+    );
+    renderCards(filteredLinks);
+  });
+
+  // ====================================================
+  // SORT
+  // ====================================================
+  function sortDesc() {
+    filteredLinks.sort((a,b) => Number(extractNum(b.name)) - Number(extractNum(a.name)));
+    renderCards(filteredLinks);
+    showToast('Diurutkan: terbaru dulu');
+  }
+  function sortAsc() {
+    filteredLinks.sort((a,b) => Number(extractNum(a.name)) - Number(extractNum(b.name)));
+    renderCards(filteredLinks);
+    showToast('Diurutkan: terlama dulu');
+  }
+
+  // ====================================================
+  // COPY SINGLE
+  // ====================================================
+  function copyLink(btn, url) {
+    navigator.clipboard.writeText(url).then(() => {
+      btn.classList.add('copied');
+      btn.textContent = 'ok';
+      setTimeout(() => { btn.classList.remove('copied'); btn.textContent = '📋'; }, 2000);
+      showToast('Link berhasil dicopy!');
+    });
+  }
+
+  // ====================================================
+  // COPY ALL
+  // ====================================================
+  function copyAll() {
+    const text = filteredLinks.map(l => l.name + '\n' + l.url).join('\n\n');
+    navigator.clipboard.writeText(text).then(() => {
+      showToast(filteredLinks.length + ' link berhasil dicopy semua!');
+    });
+  }
+
+  // ====================================================
+  // EXPORT TXT
+  // ====================================================
+  function downloadList() {
+    const text = filteredLinks.map(l => l.name + '\n' + l.url).join('\n\n');
+    const blob = new Blob([text], { type: 'text/plain' });
+    const a = document.createElement('a');
+    a.href = URL.createObjectURL(blob);
+    a.download = 'nomercy_links.txt';
+    a.click();
+    showToast('File .txt berhasil didownload!');
+  }
+
+  // ====================================================
+  // REFRESH
+  // ====================================================
+  function refreshLinks() {
+    document.getElementById('stats-bar').style.display   = 'none';
+    document.getElementById('search-wrap').style.display = 'none';
+    document.getElementById('controls').style.display    = 'none';
+    document.getElementById('search-input').value = '';
+
+    const container = document.getElementById('link-container');
+    container.innerHTML = '<div id="scraper-status"><div class="spinner"></div><p>Memuat ulang link...</p></div>';
+
+    loadLinks();
+  }
+
+  // ====================================================
+  // TOAST
+  // ====================================================
+  let toastTimer;
+  function showToast(msg) {
+    const t = document.getElementById('toast');
+    t.textContent = msg;
+    t.classList.add('show');
+    clearTimeout(toastTimer);
+    toastTimer = setTimeout(() => t.classList.remove('show'), 3000);
+  }
+
+  // ====================================================
+  // INIT
+  // ====================================================
+  createParticles();
+  loadLinks();
+</script>
+</body>
+</html>
